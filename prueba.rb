@@ -9,6 +9,7 @@ class Libro
 
     def descripcion
      "El libro #{nombre} fue publicado en #{fecha_pub} por el autor '#{autor}'"
+    end
 end
 
 libro1 = Libro.new('Benito Camelo','1 de mato 2001','Juan Diaz')
